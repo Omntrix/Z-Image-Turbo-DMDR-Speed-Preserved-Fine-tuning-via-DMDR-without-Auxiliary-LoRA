@@ -2,7 +2,7 @@
 **Speed-Preserved Fine-tuning via DMDR without Auxiliary LoRA**
 
 This project provides a high-fidelity implementation of the **DMDR loss** tailored for **Z-Image-Turbo**.  
-We introduce an **Aux-LoRA-Free** training pipeline that enables **Reinforcement Learning** and **SFT / LoRA fine-tuning** *without extra training overhead*, ensuring:
+We introduce an **Aux-LoRA-Free** training pipeline that enables **RLHF** and **SFT / LoRA fine-tuning** *without extra training overhead*, ensuring:
 
 - ✅ crystal-clear image generation  
 - ✅ zero inference speed penalty  
