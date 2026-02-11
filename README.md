@@ -139,7 +139,7 @@ python test-lora.py
 This project is built upon the following exceptional works:
 
 - [DMDR](https://github.com/vvvvvjdy/dmdr): Official implementation of "Distribution Matching Distillation Meets Reinforcement Learning".
-- [Z-Image-Turbo](https://huggingface.co/Tongyi-MAI/Z-Image-Turbo): The foundational model for ultra-fast one-step generation.
+- [Z-Image-Turbo](https://huggingface.co/Tongyi-MAI/Z-Image-Turbo): The foundational model for ultra-fast generation.
 
 We thank the authors for their pioneering research and for providing the base models that made this optimization possible.
 
