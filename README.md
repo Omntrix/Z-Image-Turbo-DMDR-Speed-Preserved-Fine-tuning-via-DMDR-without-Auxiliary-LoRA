@@ -115,7 +115,7 @@ accelerate launch \
   --lambda_dmdr 0.1 \
   --use_wandb
 ```
-## Training Loss
+## 🔮Training Loss
 
 ![training_loss](asset/loss_image.png)
 
@@ -123,6 +123,25 @@ DMDR explicitly constrains the model to preserve the original Z-Image-Turbo gene
 The combination of both losses ensures that the trained model maintains Z-Image-Turbo inference speed while improving image generation quality.
 
 
+## ⚡ Z-Image Turbo + LoRA Speed Test ![LoRA Ready](https://img.shields.io/badge/LoRA-Ready-brightgreen)
+
+This repository demonstrates testing **LoRA weights** on Z-Image Turbo for inference speed.  
+
+The LoRA weights are from [Killjson/lora-for-zimage-turbo-Speed-Preserved](https://huggingface.co/Killjson/lora-for-zimage-turbo-Speed-Preserved).
+
+You can test the speed by running:
+
+```bash
+python test-lora.py
+```
+## Acknowledgements
+
+This project is built upon the following exceptional works:
+
+- [DMDR](https://github.com/vvvvvjdy/dmdr): Official implementation of "Distribution Matching Distillation Meets Reinforcement Learning".
+- [Z-Image-Turbo](https://huggingface.co/Tongyi-MAI/Z-Image-Turbo): The foundational model for ultra-fast one-step generation.
+
+We thank the authors for their pioneering research and for providing the base models that made this optimization possible.
 
 
 
