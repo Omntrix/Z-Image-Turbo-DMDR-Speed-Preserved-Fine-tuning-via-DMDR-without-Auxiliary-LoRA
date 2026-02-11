@@ -115,6 +115,14 @@ accelerate launch \
   --lambda_dmdr 0.1 \
   --use_wandb
 ```
+## Training Loss
+
+![training_loss](asset/loss_image.png)
+
+DMDR explicitly constrains the model to preserve the original Z-Image-Turbo generation path, while the SFT loss continuously decreases during training.  
+The combination of both losses ensures that the trained model maintains Z-Image-Turbo inference speed while improving image generation quality.
+
+
 
 
 
